@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+  background: #cd136d;
+}
+
+code {
+  background: #cd136d;
+}
+
+canvas {
+  margin: auto;
+  background: #e892b7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+}
