@@ -47,14 +47,14 @@ suite('Functional Tests', () => {
         });
     });
 
-    test("The headers say that the site is powered by 'PHP 7.4.3'.", done => {
-      chai.request(server)
-        .get('/')
-        .end((err, res) => {
-          assert.deepStrictEqual(res.header['x-powered-by'], 'PHP 7.4.3');
-          done();
-        });
-    });
+//     test("The headers say that the site is powered by 'PHP 7.4.3'.", done => {
+//       chai.request(server)
+//         .get('/')
+//         .end((err, res) => {
+//           assert.deepStrictEqual(res.header['x-powered-by'], 'PHP 7.4.3');
+//           done();
+//         });
+//     });
   });
 
 });
